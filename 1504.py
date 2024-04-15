@@ -44,3 +44,5 @@ from numpy import random
 #     print(i)
 
 x = random.randint(10,size=(9,9))
+
+
