@@ -7,6 +7,7 @@ for i in tab:
 print(tab1)
 
 
+
 lista1 = np.arange(1,10,dtype=float)
 lista2 = lista1.astype('int64')
 print(lista2)
@@ -15,7 +16,17 @@ n = int(input("Podaj wymiar tablicy"))
 tablica = np.shape(n)
 print(tablica)
 
+#b = np.arange(1,26,1.reshape(n,n)
+
 a = int(input("Podstawa operacji potegowania"))
 b = int(input("Ilosc kolejnych poteg do wygenerowania"))
 wynik = np.logspace(2,4,num = b, base = a, dtype=int)
 print(wynik)
+
+dl = int(input("Podaj dlugosc wektora"))
+wektor = np.arange(dl, dtype=int)
+w = []
+print(wektor)
+for i in range(0,len(wektor)):
+    w[i]=wektor[-i]
+print(w)
